@@ -52,22 +52,36 @@ html{
     color: yellow;
 }
 
-.nav-container{
-    position: absolute;
+.scroll-menu{
+    position: fixed;
     top: 20px;
     right: 20px;
+    cursor: pointer;
 }
 
-ul{
+.scroll-menu li{
     list-style: none; 
-}
-
-a{
-    text-decoration: none;
     font-size: 15px;
-    color: black;
     background-color: white;
+
     width: 40px;
     height: 40px;
     border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+}
+
+.scroll-menu a{
+    text-decoration: none;
+    color: black;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+/* Animation */
+.scroll-menu li:hover{
+    scale: 1.1;
+}
+
+.scroll-menu li:active{
+    scale: 1.0;
 }
