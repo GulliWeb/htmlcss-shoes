@@ -1,0 +1,36 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Generics */
+body{
+    font-family: 'Rubik Mono One', sans-serif;;
+}
+
+/* Utils */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Main */
+.full-page{
+    height: 100vh;
+    position: relative;
+    background-color: red;
+}
+
+.shoes-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.shoes-title{
+    font-size: 43px;
+    color: yellow;
+}
